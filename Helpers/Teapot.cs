@@ -9,7 +9,7 @@ namespace Models
 
 		public static Teapot teapot = new Teapot();
 
-		Teapot()
+		public Teapot()
 		{
 			vertexCount = TeapotInternal.vertexCount;
 			vertices = TeapotInternal.vertices;
